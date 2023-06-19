@@ -1,0 +1,6 @@
+---
+# File: group_vars/ios.yml
+
+ansible_network_os: ios
+interface_name: GigabitEthernet1
+interface_ip: 192.0.2.10/24

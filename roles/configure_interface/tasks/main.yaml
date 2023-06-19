@@ -1,0 +1,6 @@
+---
+# File: roles/configure_interface/tasks/main.yml
+
+- name: Configure interface
+  ansible.builtin.include_tasks: "{{ ansible_network_os }}_interface.yml"
+

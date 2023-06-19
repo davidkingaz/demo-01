@@ -1,0 +1,6 @@
+---
+# File: group_vars/eos.yml
+
+ansible_network_os: eos
+interface_name: Ethernet1
+interface_ip: 192.0.2.10/24

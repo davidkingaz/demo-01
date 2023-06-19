@@ -1,0 +1,7 @@
+---
+- name: Configure EOS interface
+  arista.eos.eos_interfaces:
+    config:
+      - name: "{{ interface_name }}"
+        ipv4: "{{ interface_ip }}"
+        enabled: true
